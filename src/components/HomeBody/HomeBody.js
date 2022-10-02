@@ -117,7 +117,7 @@ function HomeBody({toggle}) {
    
     <div onMouseEnter={() => activateSlider(true)} onMouseLeave={ () => activateSlider(false) } style={{'overflowX':'hidden'}} onClick={stopSlider}>
 
-    {count2 === 1 && (<BodyHome image={`./assets/banner${count2}.jpg`} op={opaci} indx={count2} toggle={toggle}>
+    {count2 === 1 && (<BodyHome image={`./assets/bannerI${count2}.jpg`} op={opaci} indx={count2} toggle={toggle}>
 
 
     {/* <Letters titulo={'Truly Gorgeous'} letters={'Bridalwear'} button={'01243 788090'} cuenta={count} />   */}
@@ -127,7 +127,7 @@ function HomeBody({toggle}) {
     
     </BodyHome>)}
 
-    {count2 === 2 && (<BodyHome image={`./assets/banner${count2}.jpg`} op={opaci} indx={count2}>
+    {count2 === 2 && (<BodyHome image={`./assets/bannerI${count2}.jpg`} op={opaci} indx={count2}>
 
     <div
     style={{
@@ -152,7 +152,7 @@ function HomeBody({toggle}) {
   
     </BodyHome>)}
 
-    {count2 === 3 && (<BodyHome image={`./assets/banner${count2}.jpg`} op={opaci}  indx={count2}>
+    {count2 === 3 && (<BodyHome image={`./assets/bannerI${count2}.jpg`} op={opaci}  indx={count2}>
     {/* <Letters  titulo={'titulo 3'}  letters={'letters3'} button={'button 3'} cuenta={count}/>  */}
 
 

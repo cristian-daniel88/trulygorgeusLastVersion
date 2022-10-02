@@ -40,9 +40,9 @@ display: ${({toggle})=> toggle == 'true' ? 'none' : 'block'};
   @media screen and (max-width: 865px) {
    
  
-    background-image:${({indx}) => indx == 1 && "url(./assets/banner1bis.jpg)"};
-    background-image:${({indx}) => indx == 2 && "url(./assets/banner2bis.jpg)"};
-    background-image:${({indx}) => indx == 3 && "url(./assets/banner3bis.jpg)"};
+    background-image:${({indx}) => indx == 1 && "url(./assets/bannerI1.jpg)"};
+    background-image:${({indx}) => indx == 2 && "url(./assets/bannerI2.jpg)"};
+    background-image:${({indx}) => indx == 3 && "url(./assets/bannerI3.jpg)"};
     
   
    

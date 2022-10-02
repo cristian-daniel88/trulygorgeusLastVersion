@@ -6,12 +6,12 @@ function VideoBanner() {
     <>
     <ContainerVideo>
 
-    <Video  loop muted controls>
+    <Video autoPlay loop muted>
     <source src="http://trulygorgeous.co.uk/imgs/palomaBlanca.mp4" type="video/mp4"/>
      Your browser does not support HTML5 video.
    </Video>
-    
-    {/* <LogoVideo>
+{/*     
+    <LogoVideo>
         Truly Gorgeous
     </LogoVideo> */}
     </ContainerVideo>

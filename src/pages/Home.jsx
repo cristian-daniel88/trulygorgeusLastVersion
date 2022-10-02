@@ -4,8 +4,8 @@ import HomeBodyVideo from '../components/HomeBodyVideo/HomeBodyVideo'
 
 function Home() {
   return (
-    //<HomeBody/>
-    <HomeBodyVideo/>
+    <HomeBody/>
+    //<HomeBodyVideo/>
   )
 }
 
