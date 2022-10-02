@@ -5,6 +5,7 @@ import Balls from '../Balls/Balls'
 import { useDispatch, useSelector } from 'react-redux'
 import { hoverSlider, sliderManual } from '../../redux/slider/sliderActions'
 import { countPlus, countPut } from '../../redux/count/countActions'
+import { ContainerVideo, LogoVideo, Video } from '../VideoBanner/VideoBannerStyles'
 
 
 
@@ -143,7 +144,7 @@ function HomeBody({toggle}) {
 
       }}
       >
-        MALCOLM HARRIS | PHOTOGRAPHY
+        {/* MALCOLM HARRIS | PHOTOGRAPHY */}
       </div>
     </div>
     {/* <Letters titulo={'titulo 2'} letters={'letters 2'} button={'button 2'} cuenta={count}/> */}
@@ -164,9 +165,18 @@ function HomeBody({toggle}) {
     <Balls bola={count2}/>
 
 
-   
+    <br/>
 
+    <ContainerVideo>
+
+   <Video controls loop muted>
+   <source src="http://trulygorgeous.co.uk/imgs/palomaBlanca.mp4" type="video/mp4"/>
+   Your browser does not support HTML5 video.
+   </Video>
+ 
+   </ContainerVideo>
     
+    <br/>
 
 
     </div>
