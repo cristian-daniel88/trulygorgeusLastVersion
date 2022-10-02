@@ -1,12 +1,17 @@
 import React from 'react'
+import { ContainerVideo, LogoVideo, Video } from './VideoBannerStyles'
 
 function VideoBanner() {
   return (
     <>
-    <video autoPlay loop muted  width="320" height="240">
-     <source src="http://trulygorgeous.co.uk/imgs/bannerVideo.mp4" type="video/mp4"/>
+    <ContainerVideo>
+
+    <Video autoPlay loop muted>
+    <source src="http://trulygorgeous.co.uk/imgs/bannerVideo.mp4" type="video/mp4"/>
      Your browser does not support HTML5 video.
-   </video>
+   </Video>
+    <LogoVideo src='assets/logo.png'/>
+    </ContainerVideo>
     </>
   )
 }
