@@ -19,12 +19,12 @@ height: auto;
 export const LogoVideo = styled.div`
 position:absolute ;
 
-height: 9%;
-
-top: 89%;
+height: auto;
+width:100% ;
+bottom: 0;
 background-color: #a7a7a7;
 border-radius: 5px;
-left: 4%;
+left: 0;
 color:white ;
 padding:15px ;
 display:flex ;
@@ -33,9 +33,11 @@ align-items:center ;
 cursor: pointer;
 padding:15px ;
 font-family: 'Carattere',cursive !important;
-font-size:45px ;
+font-size:55px ;
 background-color: #0000003d;
 backdrop-filter: blur(8px);
+
+
 
 
 `
