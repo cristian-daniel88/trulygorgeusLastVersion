@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContainerVideo, LogoVideo, Video } from './VideoBannerStyles'
+import { ContainerVideo, LogoVideo, StopIcon, Video } from './VideoBannerStyles'
 
 function VideoBanner() {
   return (
@@ -10,7 +10,9 @@ function VideoBanner() {
     <source src="http://trulygorgeous.co.uk/imgs/bannerVideo.mp4" type="video/mp4"/>
      Your browser does not support HTML5 video.
    </Video>
-    <LogoVideo src='assets/logo.png'/>
+    <LogoVideo>
+        Truly Gorgeous
+    </LogoVideo>
     </ContainerVideo>
     </>
   )

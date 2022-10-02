@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { FaPlayCircle, FaStop, FaStopCircle} from "react-icons/fa";
+
+
 
 
 export const Video = styled.video`
@@ -12,12 +15,28 @@ position: relative;
 `
 
 
-export const LogoVideo = styled.img`
+export const LogoVideo = styled.div`
 position:absolute ;
-width:20%;
+
+height: 8%;
 top: 87%;
-background-color: transparent;
+background-color: #a7a7a7;
 border-radius: 5px;
-left:20px ;
+left: 4%;
+color:white ;
+padding:10px ;
+display:flex ;
+justify-content: center;
+align-items:center ;
+cursor: pointer;
+font-family: 'Carattere',cursive !important;
+
+//font-size: 40px;
 
 `
+
+export const StopIcon = styled(FaStop)`
+
+
+`
+
