@@ -1,4 +1,5 @@
 import React from "react";
+import { useMediaQuery } from 'react-responsive'
 import {
   AInstagram,
   IconFaceBook,
@@ -9,6 +10,11 @@ import {
 import { ContactFooterContainer, CristianHerreraDev, CristianHerreraDev2, PContactFooter } from "./ContactFooterStyles";
 
 function ContactFooter() {
+
+  
+  const isPhoneMin = useMediaQuery({ query: '(max-width: 300px)' }) 
+
+
   return (
     <ContactFooterContainer>
       <a
@@ -34,7 +40,30 @@ function ContactFooter() {
               color: 'grey'
             }}
           ></IconFaceBook>
-          <p style={{ color: "#ffffff", 'marginLeft':'5px', 'fontFamily':`'Raleway',sans-serif`, 'fontWeight':'600','letterSpacing':'2px', 'fontSize':'10px', 'lineHeight':'25px'}}>facebook.com/trulygorgeousweddingdresses</p>
+          {isPhoneMin ? 
+                      <p style=
+                      {{ color: "#ffffff", 
+                      'marginLeft':'5px', 
+                      'fontFamily':`'Raleway',sans-serif`, 
+                      'fontWeight':'600',
+                      'letterSpacing':'2px', 
+                      'fontSize':'6px', 
+                      'lineHeight':'25px'}}>
+                      facebook.com/trulygorgeousweddingdresses
+                    </p>
+                    :
+                    <p style=
+                    {{ color: "#ffffff", 
+                    'marginLeft':'5px', 
+                    'fontFamily':`'Raleway',sans-serif`, 
+                    'fontWeight':'600',
+                    'letterSpacing':'2px', 
+                    'fontSize':'10px', 
+                    'lineHeight':'25px'}}>
+                    facebook.com/trulygorgeousweddingdresses
+                  </p>
+          }
+
         </PContactFooter>
       </a>
 
@@ -53,7 +82,33 @@ function ContactFooter() {
         <PContactFooter>
           <IconInstagram />
 
-          <p style={{ color: "#ffffff", 'marginLeft':'5px', 'fontFamily':`'Raleway',sans-serif`, 'fontWeight':'600','letterSpacing':'2px' , 'fontSize':'10px'}}>instagram.com/trulygorgeousbridal</p>
+       
+
+          {
+          isPhoneMin ? 
+          <p style={{ color: "#ffffff", 
+          'marginLeft':'5px', 
+          'fontFamily':`'Raleway',sans-serif`,
+          'fontWeight':'600',
+          'letterSpacing':'2px' , 
+          'fontSize':'6px'}}>
+            instagram.com/trulygorgeousbridal
+          </p>
+
+          :
+
+          <p style={{ color: "#ffffff", 
+          'marginLeft':'5px', 
+          'fontFamily':`'Raleway',sans-serif`,
+          'fontWeight':'600',
+          'letterSpacing':'2px' , 
+          'fontSize':'10px'}}>
+            instagram.com/trulygorgeousbridal
+          </p>
+
+        
+            }
+         
         </PContactFooter>
       </AInstagram>
       </div>
