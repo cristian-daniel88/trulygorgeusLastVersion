@@ -12,7 +12,7 @@ export const weddingDresses = [
             },
             {
                 imgs:[
-                    'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862869/designers/palomaBlanca/4894/4894b_y0s0cy.jpg',
+                    'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894B.jpg',
                     
                 ]
             },
