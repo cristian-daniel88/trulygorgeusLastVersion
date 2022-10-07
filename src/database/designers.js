@@ -491,7 +491,7 @@ export const designers = [
            
           ],
 
-          video: ['https://www.youtube.com/watch?v=JI6Ha8BkQQU']
+          video: ['https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/Paloma%20Blanca%20Style%204894.mp4']
 
         },
 

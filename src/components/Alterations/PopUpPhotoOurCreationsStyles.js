@@ -4,7 +4,7 @@ import { FaRegTimesCircle } from "react-icons/fa";
 
 
 export const PopUpPhotoOurCreations = styled.div`
-height: auto;
+height: ${({video}) => video == 'true' ? '120vh' : 'auto'};
 width: 100%;
 background-color: rgba(0, 0, 0,.8);
 position: fixed;

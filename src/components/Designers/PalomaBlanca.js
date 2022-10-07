@@ -101,9 +101,13 @@ function PalomaBlanca() {
       <OurCreationsContainer>
         {/* 0 */}
       <NameDesigner style={{ marginTop: "30px" }}>Paloma Blanca</NameDesigner>
+        
         <OurCreationsBox palomaSize='true'>
+         {ronaldModelsObject[0].uid}   
           <OurCreationsBox2>
+           
             <OurCreationsBox1
+            
               src={ronaldModelsObject[0].imgs[first]}
               onMouseEnter={() => setfirst(1)}
               onMouseLeave={() => setfirst(0)}
@@ -122,6 +126,23 @@ function PalomaBlanca() {
                     palomaBlancaResize="true"
                   ></CartOurCreations>
                 ))}
+
+
+              
+                
+
+                 <CartOurCreations
+                    src="/"
+                    onClick={() => click(ronaldModelsObject[0].video[0], true)}
+                    palomaBlancaResize="true"
+                  >
+
+                    {console.log(ronaldModelsObject[0].video[0])}
+                  </CartOurCreations>
+               
+
+            
+           
               </CartGridOurCreations>
             </OurCreationsBox4>
           </OurCreationsBox2>
