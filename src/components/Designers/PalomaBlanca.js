@@ -132,7 +132,7 @@ function PalomaBlanca() {
                 
 
                  <CartOurCreations
-                    src="/assets/play.jpg"
+                    src="./assets/play.jpg"
                     onClick={() => click(ronaldModelsObject[0].video[0], true)}
                     palomaBlancaResize="true"
                   >
