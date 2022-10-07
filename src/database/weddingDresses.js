@@ -139,23 +139,23 @@ export const weddingDresses = [
         models:[
             // Paloma Blanca
 
-            // {
-            //     imgs:[
-            //         'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862871/designers/palomaBlanca/4894/4894f_vlh3uf.jpg',
-            //     ],
-            // },
+            {
+                imgs:[
+                    'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894C.jpg',
+                ],
+            },
 
-            // {
-            //     imgs:[
-            //         'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862869/designers/palomaBlanca/4894/4894b_y0s0cy.jpg',
-            //     ],
-            // },
+            {
+                imgs:[
+                    'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894B.jpg',
+                ],
+            },
 
-            // {
-            //     imgs:[
-            //         'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862871/designers/palomaBlanca/4894/4894f-2_xrxccu.jpg',
-            //     ],
-            // },
+            {
+                imgs:[
+                    'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894A.jpg',
+                ],
+            },
 
             // Ronald Joyce
             {
@@ -341,23 +341,23 @@ export const weddingDresses = [
         name:'Sophisticated',
         models: [
             // Paloma Blanca
-            // {
-            //     imgs: [
-            //         'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862871/designers/palomaBlanca/4894/4894f_vlh3uf.jpg',
-            //     ]
-            // },
+            {
+                imgs: [
+                    'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894C.jpg',
+                ]
+            },
 
-            // {
-            //     imgs: [
-            //         'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862871/designers/palomaBlanca/4894/4894f-2_xrxccu.jpg',
-            //     ]
-            // },
+            {
+                imgs: [
+                    'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894A.jpg',
+                ]
+            },
 
-            // {
-            //     imgs: [
-            //         'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862866/designers/palomaBlanca/4894/4894b-2_fead1s.jpg',
-            //     ]
-            // },
+            {
+                imgs: [
+                    'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894E.jpg',
+                ]
+            },
 
             // Ronal Joyce
             {
@@ -560,19 +560,19 @@ export const weddingDresses = [
 
             // Paloma Blanca
 
-            // {
-            //     imgs: [
-            //         'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862871/designers/palomaBlanca/4894/4894f_vlh3uf.jpg',
+            {
+                imgs: [
+                    'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894C.jpg',
                     
-            //     ]
-            // },
+                ]
+            },
 
-            // {
-            //     imgs: [
-            //         'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862871/designers/palomaBlanca/4894/4894f-2_xrxccu.jpg',
+            {
+                imgs: [
+                    'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894A.jpg',
                     
-            //     ]
-            // },
+                ]
+            },
 
             // Ronald Joyce
 
