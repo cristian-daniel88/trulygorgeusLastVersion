@@ -165,7 +165,7 @@ function HomeBody({toggle}) {
     <Balls bola={count2}/>
 
 
-    <br/>
+    {/* <br/>
 
     <ContainerVideo>
 
@@ -176,7 +176,7 @@ function HomeBody({toggle}) {
  
    </ContainerVideo>
     
-    <br/>
+    <br/> */}
 
 
     </div>

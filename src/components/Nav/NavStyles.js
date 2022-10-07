@@ -352,15 +352,18 @@ export const AInstagram = styled.a`
   height: 1.5em;
   text-align: center;
   border-radius: 5px;
-  color: #fff;
+  //color: #fff;
 
   line-height: 1.5em;
   vertical-align: middle;
-  background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  //background: #d6249f;
+  //background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  //box-shadow: 0px 3px 10px rgba(0,0,0,.25);
   display: flex;
   align-items: center;
+
+
+  color: grey;
 `
 export const TelophoneNumber = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Alef&family=Raleway:ital@1&display=swap');
@@ -389,5 +392,26 @@ color: black;
 
    
   }
+
+`
+
+export const AFromServer = styled.a`
+text-decoration: none;
+color:  #494261b5 !important;
+
+
+
+&:visited {
+  color: #494261b5;
+}
+
+
+&:hover {
+    color: #bf6c4a;
+
+}
+&:focus {
+  
+}
 
 `

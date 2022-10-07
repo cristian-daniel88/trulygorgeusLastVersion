@@ -39,9 +39,26 @@ import SendMessagePages from './pages/SendMessagePages';
 
 
 
+// Google Analitics
+import ReactGA from 'react-ga';
+import { useEffect, useState } from 'react';
+const TRACKING_ID = "UA-199611647-1"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
+
+
+
 
 
 function App() {
+
+
+     useEffect(() => { 
+  
+          ReactGA.pageview('/');        
+     }, []);
+
+
   return (
     <>
     <HashRouter>
@@ -60,7 +77,7 @@ function App() {
     </Route>
       
 
-    <Route exact path='/about-us'>
+    <Route exact path='/about-us' >
         <AboutUs/>
     </Route>
 

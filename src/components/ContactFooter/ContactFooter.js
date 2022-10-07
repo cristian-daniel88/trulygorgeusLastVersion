@@ -24,11 +24,14 @@ function ContactFooter() {
         <PContactFooter>
           <IconFaceBook
             style={{
-              background: "white",
+              //background: "white",
               borderRadius: "50%",
               marginLeft: "20px",
               zIndex: "0",
               marginBottom: "15px",
+              
+              
+              color: 'grey'
             }}
           ></IconFaceBook>
           <p style={{ color: "#ffffff", 'marginLeft':'5px', 'fontFamily':`'Raleway',sans-serif`, 'fontWeight':'600','letterSpacing':'2px', 'fontSize':'10px', 'lineHeight':'25px'}}>facebook.com/trulygorgeousweddingdresses</p>
@@ -70,21 +73,21 @@ function ContactFooter() {
         href="tel:01243788090"
         target="_blank"
         >
-        <IconPhone style={{ color: "white" }}></IconPhone> &nbsp;
+        <IconPhone style={{ color: "grey" }}></IconPhone> &nbsp;
         <TelophoneNumber style={{ color: "white" , 'fontSize':'10px', 'letterSpacing':'2px'}}>
           01243 788090
         </TelophoneNumber>
       </a>
 
     </div>
-      <CristianHerreraDev href="https://cristianherreradev.co.uk" target='_blank'>
-          Designed by cristianherreradev.co.uk
+      <CristianHerreraDev href="https://cristianherrera.co.uk" target='_blank'>
+          Designed by cristianherrera.co.uk
       </CristianHerreraDev>
 
     
       
-      <CristianHerreraDev2 href="https://cristianherreradev.co.uk" target='_blank'>
-          Designed by cristianherreradev.co.uk
+      <CristianHerreraDev2 href="https://cristianherrera.co.uk" target='_blank'>
+          Designed by cristianherrera.co.uk
       </CristianHerreraDev2>
         
     </ContactFooterContainer>

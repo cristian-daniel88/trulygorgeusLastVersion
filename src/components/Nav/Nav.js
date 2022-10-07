@@ -99,7 +99,7 @@ function Nav() {
   return (
     <Header>
       <TelephoneNumber2 href="tel:01243788090" target="_blank">
-        <IconPhone style={{ fontSize: "1.3em", color: "rgb(72, 64, 64)" }} />
+        <IconPhone style={{ fontSize: "1.3em", color: "grey" }} />
         &nbsp;
         <div style={{ color: "rgb(72, 64, 64)" }}>01243 788090</div>
       </TelephoneNumber2>
@@ -245,7 +245,7 @@ function Nav() {
       </Navegador>
       <BoxContact>
         <a
-          style={{ cursor: "pointer", zIndex: "1000000", color: "#3B5998" }}
+          style={{ cursor: "pointer", zIndex: "1000000", color: "grey" }}
           href="https://www.facebook.com/trulygorgeousweddingdresses"
           target="_blank"
         >
@@ -269,7 +269,7 @@ function Nav() {
           href="tel:01243788090"
           target="_blank"
         >
-          <IconPhone></IconPhone> &nbsp;
+          <IconPhone style={{color: 'grey'}}></IconPhone> &nbsp;
           <TelophoneNumber>01243 788090</TelophoneNumber>
         </a>
       </BoxContact>

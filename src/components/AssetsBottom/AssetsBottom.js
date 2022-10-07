@@ -16,9 +16,9 @@ function AssetsBottom() {
 
 
           <a style={{'cursor':'pointer', 'zIndex': '1000000', 'display':'flex', 'color': '#484040', 'marginLeft':'20px' , 'marginRight':'20px'}} href='tel:01243788090' target='_blank'>
-          <IconPhone style={{'color':'white'}}></IconPhone> &nbsp;
+          <IconPhone style={{'color':'grey'}}></IconPhone> &nbsp;
           <TelophoneNumber style={{'color':'white'}}>
-            01243788090
+            01243 788090
           </TelophoneNumber>
           </a>
         
