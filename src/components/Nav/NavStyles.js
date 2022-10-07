@@ -330,20 +330,20 @@ color: black;
 export const IconFaceBook =  styled(FaFacebook)`
 font-size: 1.5em;
 cursor: pointer;
-z-index: 500000;
+//z-index: 500000;
 
 `
 export const IconInstagram = styled(FaInstagram)`
 font-size: 1.5em;
 cursor: pointer;
-z-index: 500000;
+//z-index: 500000;
 
 `
 
 export const IconPhone = styled(FaPhone)`
 font-size: 1.5em;
 cursor: pointer;
-z-index: 500000;
+//z-index: 500000;
 `
 
 export const AInstagram = styled.a`
