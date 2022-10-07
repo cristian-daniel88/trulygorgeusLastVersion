@@ -479,17 +479,20 @@ export const designers = [
           alt:'',
           imgs: [
            
-           'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862871/designers/palomaBlanca/4894/4894f_vlh3uf.jpg',
+           'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894C.jpg',
 
-           'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862869/designers/palomaBlanca/4894/4894b_y0s0cy.jpg',
+           'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894B.jpg',
 
-           'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862871/designers/palomaBlanca/4894/4894f-2_xrxccu.jpg',
+           'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894A.jpg',
 
-           'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862866/designers/palomaBlanca/4894/4894b-2_fead1s.jpg',
+           'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894E.jpg',
 
-           'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862864/designers/palomaBlanca/4894/4894c_spunuu.jpg',
+           'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894D.jpg',
            
           ],
+
+          video: ['https://www.youtube.com/watch?v=JI6Ha8BkQQU']
+
         },
 
         { 
@@ -499,12 +502,14 @@ export const designers = [
           alt:'',
           imgs: [
             
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862862/designers/palomaBlanca/4977/4977c_c8kyim.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4977/4977C.jpg',
 
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862878/designers/palomaBlanca/4977/4977b_cdyzvu.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4977/4977B.jpg',
 
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862861/designers/palomaBlanca/4977/4977f_yiykid.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4977/4977A.jpg',
           ],
+
+          video: ['https://www.youtube.com/watch?v=Fy-znicjPkI']
         },
 
         { 
@@ -514,13 +519,14 @@ export const designers = [
           alt:'',
           imgs: [
            
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862882/designers/palomaBlanca/4978/4978c_bwhqdz.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4978/4978C.jpg',
 
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862879/designers/palomaBlanca/4978/4978b_fehvu7.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4978/4978B.jpg',
 
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862878/designers/palomaBlanca/4978/4978f_k5imrg.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4978/4978A.jpg',
             
           ],
+          video: ['https://www.youtube.com/watch?v=eOZfwS9GEO4']
         },
 
         { 
@@ -530,14 +536,16 @@ export const designers = [
           alt:'',
           imgs: [
           
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862882/designers/palomaBlanca/4984/4984c_xdj13y.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4984/4984D.jpg',
 
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862884/designers/palomaBlanca/4984/4984b_s0zjtf.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4984/4984B.jpg',
 
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862883/designers/palomaBlanca/4984/4984f_en0cvk.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4984/4984C.jpg',
 
             
           ],
+
+          video: ['https://www.youtube.com/watch?v=o7XoOCTN-g0']
         },
 
         { 
@@ -547,17 +555,22 @@ export const designers = [
           alt:'',
           imgs: [
             
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862871/designers/palomaBlanca/4987/4987c-curvy_wy4xwd.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4987/4987F.jpg',
 
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862885/designers/palomaBlanca/4987/4987b_curvy_kt6tnm.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4987/4987B.jpg',
 
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862871/designers/palomaBlanca/4987/4987f_zvqhzx.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4987/4987A.jpg',
 
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862886/designers/palomaBlanca/4987/4987b_tkhdlz.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4987/4987D.jpg',
 
-            'https://res.cloudinary.com/truly-gorgeous/image/upload/v1646862883/designers/palomaBlanca/4987/4987c_v1zixg.jpg',
+            'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4987/4987C.jpg',
           
+          ],
 
+          video: 
+          [
+          'https://www.youtube.com/watch?v=jEszvm4Ndnc', 
+          'https://www.youtube.com/watch?v=5qV8ocLIbHM'
           ]
            
         },
