@@ -153,6 +153,7 @@ function PalomaBlanca() {
         <NameDesigner style={{'marginBottom':'20px'}}>Paloma Blanca</NameDesigner>
 
         <OurCreationsBox palomaSize='true'>
+        {ronaldModelsObject[1].uid}   
           <OurCreationsBox2>
             <OurCreationsBox1
               src={ronaldModelsObject[1].imgs[second]}
@@ -172,6 +173,14 @@ function PalomaBlanca() {
                     palomaBlancaResize="true"
                   ></CartOurCreations>
                 ))}
+
+                
+                  <CartOurCreations
+                    src="./assets/play.jpg"
+                    onClick={() => click(ronaldModelsObject[1].video[0], true)}
+                    palomaBlancaResize="true"
+                  >
+                  </CartOurCreations>
               </CartGridOurCreations>
             </OurCreationsBox4>
           </OurCreationsBox2>
@@ -182,6 +191,7 @@ function PalomaBlanca() {
         <NameDesigner>Paloma Blanca</NameDesigner>
 
         <OurCreationsBox palomaSize='true'>
+        {ronaldModelsObject[2].uid}   
           <OurCreationsBox2>
             <OurCreationsBox1
               src={ronaldModelsObject[2].imgs[third]}
@@ -202,6 +212,15 @@ function PalomaBlanca() {
                    
                   ></CartOurCreations>
                 ))}
+
+                  <CartOurCreations
+                    src="./assets/play.jpg"
+                    onClick={() => click(ronaldModelsObject[2].video[0], true)}
+                    palomaBlancaResize="true"
+                  >
+                  </CartOurCreations>
+
+                
               </CartGridOurCreations>
             </OurCreationsBox4>
           </OurCreationsBox2>
@@ -212,6 +231,7 @@ function PalomaBlanca() {
         <NameDesigner>Paloma Blanca</NameDesigner>
 
         <OurCreationsBox palomaSize='true'>
+         {ronaldModelsObject[3].uid}
           <OurCreationsBox2>
             <OurCreationsBox1
               src={ronaldModelsObject[3].imgs[fourth]}
@@ -231,6 +251,14 @@ function PalomaBlanca() {
                     palomaBlancaResize="true"
                   ></CartOurCreations>
                 ))}
+
+                
+                  <CartOurCreations
+                    src="./assets/play.jpg"
+                    onClick={() => click(ronaldModelsObject[3].video[0], true)}
+                    palomaBlancaResize="true"
+                  >
+                  </CartOurCreations>
               </CartGridOurCreations>
             </OurCreationsBox4>
           </OurCreationsBox2>
@@ -241,6 +269,7 @@ function PalomaBlanca() {
         <NameDesigner>Paloma Blanca</NameDesigner>
 
         <OurCreationsBox palomaSize='true' style={{'marginBottom':'50px'}}>
+          {ronaldModelsObject[4].uid}
           <OurCreationsBox2>
             <OurCreationsBox1
               src={ronaldModelsObject[4].imgs[fift]}
@@ -260,6 +289,21 @@ function PalomaBlanca() {
                     palomaBlancaResize="true"
                   ></CartOurCreations>
                 ))}
+
+
+                  <CartOurCreations
+                    src="./assets/play.jpg"
+                    onClick={() => click(ronaldModelsObject[4].video[0], true)}
+                    palomaBlancaResize="true"
+                  >
+                  </CartOurCreations>
+
+                  <CartOurCreations
+                    src="./assets/play.jpg"
+                    onClick={() => click(ronaldModelsObject[4].video[1], true)}
+                    palomaBlancaResize="true"
+                  >
+                  </CartOurCreations>
               </CartGridOurCreations>
             </OurCreationsBox4>
           </OurCreationsBox2>

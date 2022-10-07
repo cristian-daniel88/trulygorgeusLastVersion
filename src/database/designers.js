@@ -509,7 +509,7 @@ export const designers = [
             'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4977/4977A.jpg',
           ],
 
-          video: ['https://www.youtube.com/watch?v=Fy-znicjPkI']
+          video: ['https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4977/Paloma%20Blanca%204977.mp4']
         },
 
         { 
@@ -526,7 +526,7 @@ export const designers = [
             'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4978/4978A.jpg',
             
           ],
-          video: ['https://www.youtube.com/watch?v=eOZfwS9GEO4']
+          video: ['https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4978/PalomaBlancaStyle4978.mp4']
         },
 
         { 
@@ -545,7 +545,7 @@ export const designers = [
             
           ],
 
-          video: ['https://www.youtube.com/watch?v=o7XoOCTN-g0']
+          video: ['https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4984/PalomaBlanca4984.mp4']
         },
 
         { 
@@ -569,8 +569,8 @@ export const designers = [
 
           video: 
           [
-          'https://www.youtube.com/watch?v=jEszvm4Ndnc', 
-          'https://www.youtube.com/watch?v=5qV8ocLIbHM'
+          'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4987/Paloma%20Blanca%20Style%204987.mp4', 
+          'https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4987/Paloma%20Blanca%20Style%204987B.mp4'
           ]
            
         },
