@@ -19,7 +19,7 @@ height: auto;
 export const LogoVideo = styled.div`
 position:absolute ;
 
-height: auto;
+height: 150;
 width:100% ;
 bottom: 0;
 background-color: #a7a7a7;

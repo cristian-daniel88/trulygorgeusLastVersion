@@ -1,4 +1,5 @@
 import React from 'react'
+import DesignersInHome from '../DesignersInHomer/DesignersInHome'
 import { ContainerVideo, LogoVideo, StopIcon, Video } from './VideoBannerStyles'
 
 function VideoBanner() {
@@ -15,6 +16,8 @@ function VideoBanner() {
         Truly Gorgeous
     </LogoVideo>
     </ContainerVideo>
+
+
     </>
   )
 }
