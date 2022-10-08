@@ -15,6 +15,7 @@ function PopUpPhotoDesignerOurCreations() {
   return (
 
     <>
+    
       <PopUpPhotoOurCreations video={popUpPhoto.imgUrl.includes('mp4')? 'true' : 'false'} toggle={popUpPhoto.hidden ? 'true' : 'false'} onClick={()=> {click('', false)}}>
 
 
@@ -26,7 +27,8 @@ function PopUpPhotoDesignerOurCreations() {
         paddingTop: '100px',
         //background:'black',
         //height:'200vh',
-        zIndex: -5
+        zIndex: -5,
+        
       }}>
         <video controls width={isPhone ? '100%' : '60%'} autoPlay loop>
         <source src={popUpPhoto.imgUrl} type="video/mp4" />
@@ -35,7 +37,10 @@ function PopUpPhotoDesignerOurCreations() {
       </div>
       :
 
-      <MarcoPhotoOurCreations  resizePadding={popUpPhoto.imgUrl} >
+      <MarcoPhotoOurCreations  resizePadding={popUpPhoto.imgUrl} 
+  
+      >
+        
       <CloseContainerOurCreations onClick={()=>click('', false)}>
         <CloseIconOurCreations/>
       </CloseContainerOurCreations>
@@ -43,7 +48,8 @@ function PopUpPhotoDesignerOurCreations() {
       
    
 
-    <PhotoPopUpOurCreations src={popUpPhoto.imgUrl}/>
+    {/* <PhotoPopUpOurCreations src={popUpPhoto.imgUrl}/> */}
+    <img src={popUpPhoto.imgUrl} width='90%'/>
     
 
       </MarcoPhotoOurCreations>
