@@ -183,9 +183,8 @@ function DesignersInHome() {
         {/*  */}
 
 
-        <br/>
-        <br/>
-        <br/>
+  
+   
         <br/>
         <br/>
         <br/>
@@ -386,9 +385,6 @@ function DesignersInHome() {
 
         {/*  */}
 
-
-                <br/>
-                <br/>
                 <br/>
                 <br/>
                 <br/>
@@ -613,8 +609,7 @@ textAlign:'center'
         {/*  */}
 
 
-        <br/>
-                <br/>
+     
                 <br/>
                 <br/>
                 <br/>
@@ -794,8 +789,7 @@ textAlign:'center'
 {/*  */}
 
 {/*  */}
-<br/>
-                <br/>
+
                 <br/>
                 <br/>
                 <br/>
@@ -941,9 +935,6 @@ textAlign:'center'
 
         {/*  */}
 
-
-        <br/>
-                <br/>
                 <br/>
                 <br/>
                 <br/>
