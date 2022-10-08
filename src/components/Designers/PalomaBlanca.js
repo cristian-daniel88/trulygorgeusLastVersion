@@ -154,7 +154,7 @@ function PalomaBlanca() {
                        left: '25%', 
                        color: 'white',
                        top:'30%',
-                       fontSize: '90px',
+                       fontSize: '7vw',
                        cursor:'pointer'
                        
                        
