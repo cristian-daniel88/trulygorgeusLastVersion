@@ -16,12 +16,15 @@ import {
 
 function PriceList() {
   return (
+    <>
     <PriceListContainer>
-      <NameDesigner style={{ marginBottom: "20px", marginTop: "30px"  ,userSelect: 'text'}}>
+      {/* <NameDesigner style={{ marginBottom: "20px", marginTop: "30px"  ,userSelect: 'text'}}>
         Price List
-      </NameDesigner>
+      </NameDesigner> */}
 
-
+        <br></br>
+        <br></br>
+        <br></br>
 
 
 
@@ -50,7 +53,7 @@ function PriceList() {
 
         <PriceListBoxContainer
           style={{ marginTop: "20px", marginBottom: "10px" }}
-        >
+          >
           <PriceListBoxSubTitle>Service</PriceListBoxSubTitle>
 
           <PriceListBoxSubTitle>Price From</PriceListBoxSubTitle>
@@ -183,7 +186,7 @@ function PriceList() {
 
         <PriceListBoxContainer
           style={{ marginTop: "20px", marginBottom: "10px" }}
-        >
+          >
           <PriceListBoxSubTitle>Service</PriceListBoxSubTitle>
 
           <PriceListBoxSubTitle>Price From</PriceListBoxSubTitle>
@@ -252,7 +255,7 @@ function PriceList() {
 
         <PriceListBoxContainer
           style={{ marginTop: "20px", marginBottom: "10px" }}
-        >
+          >
           <PriceListBoxSubTitle>Service</PriceListBoxSubTitle>
 
           <PriceListBoxSubTitle>Price From</PriceListBoxSubTitle>
@@ -308,8 +311,11 @@ function PriceList() {
         </PriceLetter>
 
     
+  
       </PriceListBox>
     </PriceListContainer>
+    </>
+    
   );
 }
 

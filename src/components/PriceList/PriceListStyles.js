@@ -18,6 +18,9 @@ export const PriceListContainer = styled.section`
   height: auto;
   padding: 0 10%;
   user-select: text;
+  background-image:url('./assets/backgroundA.jpg') ;
+  background-repeat:repeat;
+  background-size:contain ;
   @media screen and (max-width: 865px) {
     padding:0 3% ;
     
@@ -33,7 +36,7 @@ export const PriceListBox = styled.div`
   border: double 15px rgba(0,0,0,0.2);
   padding: 20px;
   padding-top: 25px;
-  margin-bottom: 50px;
+  //margin-bottom: 50px;
  
   @media screen and (max-width: 865px) {
    width: 100%;

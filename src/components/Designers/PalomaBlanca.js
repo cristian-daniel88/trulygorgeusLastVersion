@@ -171,10 +171,11 @@ function PalomaBlanca() {
            
               </CartGridOurCreations>
 
-              
+
           <OurCreationsBox3>
+          
             <DescriptionOurCreations style={{'marginRight':"5%"}} >
-              'hpoa'
+              hola
             </DescriptionOurCreations>
           </OurCreationsBox3>
             </OurCreationsBox4>
