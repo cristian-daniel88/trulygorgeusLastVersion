@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaBars, FaYoutube } from "react-icons/fa";
 
 import { designers } from "../../database/designers";
 
@@ -130,20 +131,48 @@ function PalomaBlanca() {
 
               
                 
+                 <div style={{position:'relative',
+                  //background:'black', 
+                  width:'100%',
+                  display: 'flex',
+
+                  }}>
 
                  <CartOurCreations
-                    src="./assets/play.jpg"
+                    src={ronaldModelsObject[0].imgs[0]}
                     onClick={() => click(ronaldModelsObject[0].video[0], true)}
                     palomaBlancaResize="true"
-                  >
 
+                    style={{filter:'contrast(30%)'}}
+                    
+                    >
                     {console.log(ronaldModelsObject[0].video[0])}
+                    
                   </CartOurCreations>
-               
+                      <FaYoutube style={{
+                       position: 'absolute',
+                       left: '25%', 
+                       color: 'white',
+                       top:'30%',
+                       fontSize: '90px',
+                       cursor:'pointer'
+                       
+                       
+                       }}
+                       onClick={() => click(ronaldModelsObject[0].video[0], true)}
+                       />
+                  </div>
 
             
            
               </CartGridOurCreations>
+
+              
+          <OurCreationsBox3>
+            <DescriptionOurCreations style={{'marginRight':"5%"}} >
+              'hpoa'
+            </DescriptionOurCreations>
+          </OurCreationsBox3>
             </OurCreationsBox4>
           </OurCreationsBox2>
         </OurCreationsBox>
@@ -174,13 +203,38 @@ function PalomaBlanca() {
                   ></CartOurCreations>
                 ))}
 
-                
-                  <CartOurCreations
-                    src="./assets/play.jpg"
+<div style={{position:'relative',
+                  display: 'flex',
+
+                  }}>
+
+                 <CartOurCreations
+                    src={ronaldModelsObject[1].imgs[0]}
                     onClick={() => click(ronaldModelsObject[1].video[0], true)}
                     palomaBlancaResize="true"
-                  >
+
+                    style={{filter:'contrast(30%)'}}
+                    
+                    >
+               
+                    
                   </CartOurCreations>
+                      <FaYoutube style={{
+                       position: 'absolute',
+                       left: '25%', 
+                       color: 'white',
+                       top:'30%',
+                       fontSize: '90px',
+                       cursor:'pointer'
+                       
+                       
+                       }}
+                       onClick={() => click(ronaldModelsObject[1].video[0], true)}
+                       />
+                  </div>
+
+                
+
               </CartGridOurCreations>
             </OurCreationsBox4>
           </OurCreationsBox2>
@@ -213,12 +267,36 @@ function PalomaBlanca() {
                   ></CartOurCreations>
                 ))}
 
-                  <CartOurCreations
-                    src="./assets/play.jpg"
+               <div style={{position:'relative',
+                  display: 'flex',
+
+                  }}>
+
+                 <CartOurCreations
+                    src={ronaldModelsObject[2].imgs[0]}
                     onClick={() => click(ronaldModelsObject[2].video[0], true)}
                     palomaBlancaResize="true"
-                  >
+
+                    style={{filter:'contrast(30%)'}}
+                    
+                    >
+                    
+                    
                   </CartOurCreations>
+                      <FaYoutube style={{
+                       position: 'absolute',
+                       left: '25%', 
+                       color: 'white',
+                       top:'30%',
+                       fontSize: '90px',
+                       cursor:'pointer'
+                       
+                       
+                       }}
+                       onClick={() => click(ronaldModelsObject[2].video[0], true)}
+                       />
+                  </div>
+
 
                 
               </CartGridOurCreations>
@@ -252,13 +330,36 @@ function PalomaBlanca() {
                   ></CartOurCreations>
                 ))}
 
-                
-                  <CartOurCreations
-                    src="./assets/play.jpg"
+                <div style={{position:'relative',
+                  display: 'flex',
+
+                  }}>
+
+                 <CartOurCreations
+                    src={ronaldModelsObject[3].imgs[0]}
                     onClick={() => click(ronaldModelsObject[3].video[0], true)}
                     palomaBlancaResize="true"
-                  >
+
+                    style={{filter:'contrast(30%)'}}
+                    
+                    >
+                   
+                    
                   </CartOurCreations>
+                      <FaYoutube style={{
+                       position: 'absolute',
+                       left: '25%', 
+                       color: 'white',
+                       top:'30%',
+                       fontSize: '90px',
+                       cursor:'pointer'
+                       
+                       
+                       }}
+                       onClick={() => click(ronaldModelsObject[3].video[0], true)}
+                       />
+                  </div>
+
               </CartGridOurCreations>
             </OurCreationsBox4>
           </OurCreationsBox2>
@@ -290,20 +391,70 @@ function PalomaBlanca() {
                   ></CartOurCreations>
                 ))}
 
+                <div style={{position:'relative',
+                  display: 'flex',
 
-                  <CartOurCreations
-                    src="./assets/play.jpg"
-                    onClick={() => click(ronaldModelsObject[4].video[0], true)}
-                    palomaBlancaResize="true"
-                  >
-                  </CartOurCreations>
+                  }}>
 
-                  <CartOurCreations
-                    src="./assets/play.jpg"
+                 <CartOurCreations
+                    src={ronaldModelsObject[4].imgs[0]}
                     onClick={() => click(ronaldModelsObject[4].video[1], true)}
                     palomaBlancaResize="true"
-                  >
+
+                    style={{filter:'contrast(30%)'}}
+                    
+                    >
+                   
+                    
                   </CartOurCreations>
+                      <FaYoutube style={{
+                       position: 'absolute',
+                       left: '25%', 
+                       color: 'white',
+                       top:'30%',
+                       fontSize: '90px',
+                       cursor:'pointer'
+                       
+                       
+                       }}
+                       onClick={() => click(ronaldModelsObject[4].video[1], true)}
+                       />
+                  </div>
+
+
+                  <div style={{position:'relative',
+                  display: 'flex',
+
+                  }}>
+
+                 <CartOurCreations
+                    src={ronaldModelsObject[4].imgs[2]}
+                    onClick={() => click(ronaldModelsObject[4].video[0], true)}
+                    palomaBlancaResize="true"
+
+                    style={{filter:'contrast(30%)'}}
+                    
+                    >
+                    
+                    
+                  </CartOurCreations>
+                      <FaYoutube style={{
+                       position: 'absolute',
+                       left: '25%', 
+                       color: 'white',
+                       top:'30%',
+                       fontSize: '90px',
+                       cursor:'pointer'
+                       
+                       
+                       }}
+                       onClick={() => click(ronaldModelsObject[4].video[0], true)}
+                       />
+                  </div>
+
+
+
+            
               </CartGridOurCreations>
             </OurCreationsBox4>
           </OurCreationsBox2>
