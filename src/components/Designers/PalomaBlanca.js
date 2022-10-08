@@ -224,12 +224,16 @@ function PalomaBlanca() {
                     
                   </CartOurCreations>
                       <FaYoutube style={{
-                       position: 'absolute',
-                       left: '25%', 
-                       color: 'white',
-                       top:'30%',
-                       fontSize: '90px',
-                       cursor:'pointer'
+                          position: 'absolute',
+                          left: '0',
+                          right : '0',
+                          top:'0',
+                          bottom:'0',
+                          margin:'auto',
+                          color: 'white',
+                          
+                          fontSize: '7vw',
+                          cursor:'pointer'
                        
                        
                        }}
@@ -288,12 +292,16 @@ function PalomaBlanca() {
                     
                   </CartOurCreations>
                       <FaYoutube style={{
-                       position: 'absolute',
-                       left: '25%', 
-                       color: 'white',
-                       top:'30%',
-                       fontSize: '90px',
-                       cursor:'pointer'
+                           position: 'absolute',
+                           left: '0',
+                           right : '0',
+                           top:'0',
+                           bottom:'0',
+                           margin:'auto',
+                           color: 'white',
+                           
+                           fontSize: '7vw',
+                           cursor:'pointer'
                        
                        
                        }}
@@ -351,12 +359,16 @@ function PalomaBlanca() {
                     
                   </CartOurCreations>
                       <FaYoutube style={{
-                       position: 'absolute',
-                       left: '25%', 
-                       color: 'white',
-                       top:'30%',
-                       fontSize: '90px',
-                       cursor:'pointer'
+                           position: 'absolute',
+                           left: '0',
+                           right : '0',
+                           top:'0',
+                           bottom:'0',
+                           margin:'auto',
+                           color: 'white',
+                           
+                           fontSize: '7vw',
+                           cursor:'pointer'
                        
                        
                        }}
@@ -412,13 +424,16 @@ function PalomaBlanca() {
                     
                   </CartOurCreations>
                       <FaYoutube style={{
-                       position: 'absolute',
-                       left: '25%', 
-                       color: 'white',
-                       top:'30%',
-                       fontSize: '90px',
-                       cursor:'pointer'
-                       
+                           position: 'absolute',
+                           left: '0',
+                           right : '0',
+                           top:'0',
+                           bottom:'0',
+                           margin:'auto',
+                           color: 'white',
+                           
+                           fontSize: '7vw',
+                           cursor:'pointer'
                        
                        }}
                        onClick={() => click(ronaldModelsObject[4].video[1], true)}
@@ -443,13 +458,16 @@ function PalomaBlanca() {
                     
                   </CartOurCreations>
                       <FaYoutube style={{
-                       position: 'absolute',
-                       left: '25%', 
-                       color: 'white',
-                       top:'30%',
-                       fontSize: '90px',
-                       cursor:'pointer'
-                       
+                           position: 'absolute',
+                           left: '0',
+                           right : '0',
+                           top:'0',
+                           bottom:'0',
+                           margin:'auto',
+                           color: 'white',
+                           
+                           fontSize: '7vw',
+                           cursor:'pointer'
                        
                        }}
                        onClick={() => click(ronaldModelsObject[4].video[0], true)}
