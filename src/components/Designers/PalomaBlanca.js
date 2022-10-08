@@ -151,9 +151,13 @@ function PalomaBlanca() {
                   </CartOurCreations>
                       <FaYoutube style={{
                        position: 'absolute',
-                       left: '25%', 
+                       left: '0',
+                       right : '0',
+                       top:'0',
+                       bottom:'0',
+                       margin:'auto',
                        color: 'white',
-                       top:'30%',
+                       
                        fontSize: '7vw',
                        cursor:'pointer'
                        
