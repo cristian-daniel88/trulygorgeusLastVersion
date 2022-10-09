@@ -313,7 +313,7 @@ const change6 = (v) => {
             borderRadius: '5px',
             padding: '1%',
         }}
-        data-aos="fade-right"
+        data-aos="fade-up"
         >
           <br/>
         <h4
@@ -544,7 +544,7 @@ style={{
     borderRadius: '5px',
     padding: '1%',
 }}
-data-aos="fade-up-left"
+data-aos="fade-up"
 >
 <br/>
 
@@ -803,7 +803,7 @@ style={{
     borderRadius: '5px',
     padding: '1%',
 }}
-data-aos="fade-down-right"
+data-aos="fade-up"
 >
 <br/>
 <h4
@@ -1184,7 +1184,7 @@ style={{
     borderRadius: '5px',
     padding: '1%',
 }}
-data-aos="fade-right"
+data-aos="fade-up"
 >
 <br/>
 <h4
