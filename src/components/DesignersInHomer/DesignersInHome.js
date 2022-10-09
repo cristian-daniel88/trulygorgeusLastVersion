@@ -1,12 +1,20 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaYoutube } from 'react-icons/fa'
 import { CartGridOurCreations, img, DescriptionOurCreations, OurCreationsBox3, OurCreationsBox4 } from '../Alterations/OurCreationsStyles'
 import { useMediaQuery } from 'react-responsive'
 import { Link } from 'react-router-dom';
 
+import "aos/dist/aos.css";
+
+import Aos from 'aos';
+
 
 
 function DesignersInHome() {
+useEffect(() => {
+  Aos.init({duration: 2000});
+}, []);
+  
 const isPhone = useMediaQuery({ query: '(max-width: 800px)' });
 const [first, setfirst] = useState('https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894C.jpg');
 const [second, setsecond] = useState('https://res.cloudinary.com/truly-gorgeous/image/upload/v1646251805/designers/ronaldJoyce/69714/69714-1342_ngn7xr.jpg');
@@ -99,6 +107,8 @@ const change6 = (v) => {
           borderRadius: '5px',
           padding: '1%',
         }}
+
+        data-aos="fade-up"
         >
 
         <br/>
@@ -303,6 +313,7 @@ const change6 = (v) => {
             borderRadius: '5px',
             padding: '1%',
         }}
+        data-aos="fade-right"
         >
           <br/>
         <h4
@@ -533,6 +544,7 @@ style={{
     borderRadius: '5px',
     padding: '1%',
 }}
+data-aos="fade-up-left"
 >
 <br/>
 
@@ -791,6 +803,7 @@ style={{
     borderRadius: '5px',
     padding: '1%',
 }}
+data-aos="fade-down-right"
 >
 <br/>
 <h4
@@ -1001,6 +1014,7 @@ style={{
     borderRadius: '5px',
     padding: '1%',
 }}
+data-aos="fade-up"
 >
 <br/>
 <h4
@@ -1170,6 +1184,7 @@ style={{
     borderRadius: '5px',
     padding: '1%',
 }}
+data-aos="fade-right"
 >
 <br/>
 <h4
