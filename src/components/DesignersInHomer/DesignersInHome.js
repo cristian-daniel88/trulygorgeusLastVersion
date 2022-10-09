@@ -1,8 +1,12 @@
 import React from 'react'
 import { FaYoutube } from 'react-icons/fa'
 import { CartGridOurCreations, img, DescriptionOurCreations, OurCreationsBox3, OurCreationsBox4 } from '../Alterations/OurCreationsStyles'
+import { useMediaQuery } from 'react-responsive'
+
+
 
 function DesignersInHome() {
+const isPhone = useMediaQuery({ query: '(max-width: 800px)' }) 
   return (
     <>
     <br/>
@@ -38,13 +42,14 @@ function DesignersInHome() {
 
         <div
         style={{
-            border: 'double 5px #ede6e6',
-            background:'#ffffff',
-            borderRadius: '5px',
-            padding: '1%',
+          border: 'double 5px #ede6e6',
+          background:'#ffffff',
+          borderRadius: '5px',
+          padding: '1%',
         }}
         >
 
+        <br/>
         <h4
         style={{
         fontFamily: '"FuturaStd",sans-serif',
@@ -57,6 +62,29 @@ function DesignersInHome() {
         >
             Paloma Blanca
         </h4>
+
+        <br/>
+          
+          {
+            isPhone ? 
+            <div
+            style={{
+              'width':'100%',
+              'display':'flex',
+              'justifyContent':'center',
+              
+            }}
+            >
+
+              <img src='https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894C.jpg' width='90%'
+              style={{'borderRadius': '10px'}}
+              alt='paloma blanca, wedding dresses, chichester'
+              />
+              
+
+            </div> :
+            ''
+          }
 
         <br/>
             
@@ -88,6 +116,7 @@ function DesignersInHome() {
                         borderRadius: '5px',
                         width:'19%' 
                     }}
+                    alt='paloma blanca, wedding dresses, chichester'
                     >
                  </img>
 
@@ -99,6 +128,7 @@ function DesignersInHome() {
                         borderRadius: '5px',
                         width:'19%' 
                     }}
+                    alt='paloma blanca, wedding dresses, chichester'
                     >
                  </img>
 
@@ -121,19 +151,19 @@ function DesignersInHome() {
                         borderRadius: '5px',
                         width:'19%' 
                     }}
-                    
+                    alt='paloma blanca, wedding dresses, chichester'
                     >
                  </img>
 
                  <img
                     src='https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4987/4987F.jpg' 
                     palomaBlancaResize="true"
-                    
                     style={{
                        
                         borderRadius: '5px',
                         width:'19%' 
                     }}
+                    alt='paloma blanca, wedding dresses, chichester'
                     >
                  </img>
                      
@@ -198,7 +228,7 @@ function DesignersInHome() {
             padding: '1%',
         }}
         >
-
+          <br/>
         <h4
         style={{
         fontFamily: '"FuturaStd",sans-serif',
@@ -213,6 +243,28 @@ function DesignersInHome() {
         </h4>
 
         <br/>
+
+        {
+            isPhone ? 
+            <div
+            style={{
+              'width':'100%',
+              'display':'flex',
+              'justifyContent':'center'
+            }}
+            >
+
+              <img src='https://res.cloudinary.com/truly-gorgeous/image/upload/v1646251805/designers/ronaldJoyce/69714/69714-1342_ngn7xr.jpg' width='90%' 
+              style={{'borderRadius': '10px'}}
+              alt="ronald joyce, wedding dresses, chichester"
+              />
+              
+
+            </div> :
+            ''
+          }
+
+            <br/>
             
         <div>
               <div palomaBlancaResize="true"
@@ -242,6 +294,7 @@ function DesignersInHome() {
                         borderRadius: '5px',
                         width:'24%' 
                     }}
+                    alt="ronald joyce, wedding dresses, chichester"
                     >
                  </img>
 
@@ -253,6 +306,7 @@ function DesignersInHome() {
                         borderRadius: '5px',
                         width:'24%' 
                     }}
+                    alt="ronald joyce, wedding dresses, chichester"
                     >
                  </img>
 
@@ -264,6 +318,7 @@ function DesignersInHome() {
                         borderRadius: '5px',
                         width:'24%' 
                     }}
+                    alt="ronald joyce, wedding dresses, chichester"
                     >
                  </img>
 
@@ -275,7 +330,7 @@ function DesignersInHome() {
                         borderRadius: '5px',
                         width:'24%' 
                     }}
-                    
+                    alt="ronald joyce, wedding dresses, chichester"
                     >
                  </img>
 
@@ -295,14 +350,16 @@ function DesignersInHome() {
 
                 <img
                     src='https://res.cloudinary.com/truly-gorgeous/image/upload/v1646251797/designers/ronaldJoyce/69404/69404_109_fzpixn.jpg' 
-                    palomaBlancaResize="true"
-                    
+                    palomaBlancaResize="true"  
                     style={{
                        
                         borderRadius: '5px',
                         width:'24%' 
                     }}
-                    >
+
+                    alt="ronald joyce, wedding dresses, chichester" 
+                  >
+                  
                  </img>
 
                  <img
@@ -319,25 +376,25 @@ function DesignersInHome() {
 
                  <img
                     src='https://res.cloudinary.com/truly-gorgeous/image/upload/v1646251804/designers/ronaldJoyce/69712/69712-2461_ryermb.jpg' 
-                    palomaBlancaResize="true"
-                    
+                    palomaBlancaResize="true"   
                     style={{
                        
                         borderRadius: '5px',
                         width:'24%' 
                     }}
+                    alt="ronald joyce, wedding dresses, chichester"
                     >
                  </img>
 
                  <img
                     src='https://res.cloudinary.com/truly-gorgeous/image/upload/v1646251793/designers/ronaldJoyce/69153/69153-0049_cmztfu.jpg' 
-                    palomaBlancaResize="true"
-                    
+                    palomaBlancaResize="true"  
                     style={{
                        
                         borderRadius: '5px',
                         width:'24%' 
                     }}
+                    alt="ronald joyce, wedding dresses, chichester"
                     >
                  </img>
 
@@ -388,7 +445,7 @@ function DesignersInHome() {
                 <br/>
                 <br/>
                 <br/>
-                <br/>
+     
 
 <div
 style={{
@@ -398,6 +455,7 @@ style={{
     padding: '1%',
 }}
 >
+<br/>
 
 <h4
 style={{
@@ -413,6 +471,28 @@ textAlign:'center'
 </h4>
 
 <br/>
+
+{
+            isPhone ? 
+            <div
+            style={{
+              'width':'100%',
+              'display':'flex',
+              'justifyContent':'center'
+            }}
+            >
+
+              <img src='https://res.cloudinary.com/truly-gorgeous/image/upload/v1646251818/designers/victoriaJane/18610/18610_18621-4250_jognll.jpg' width='90%' 
+              style={{'borderRadius': '10px'}}
+              alt="victoria jane, wedding dresses, chichester"
+              />
+              
+
+            </div> :
+            ''
+          }
+
+          <br/>
     
 <div>
       <div palomaBlancaResize="true"
@@ -442,6 +522,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'19%' 
             }}
+            alt="victoria jane, wedding dresses, chichester"
             >
          </img>
 
@@ -453,6 +534,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'19%' 
             }}
+            alt="victoria jane, wedding dresses, chichester"
             >
          </img>
 
@@ -464,6 +546,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'19%' 
             }}
+            alt="victoria jane, wedding dresses, chichester"
             >
          </img>
 
@@ -475,7 +558,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'19%' 
             }}
-            
+            alt="victoria jane, wedding dresses, chichester"
             >
          </img>
 
@@ -488,6 +571,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'19%' 
             }}
+            alt="victoria jane, wedding dresses, chichester"
             >
          </img>
              
@@ -511,6 +595,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'19%' 
             }}
+            alt="victoria jane, wedding dresses, chichester"
             >
          </img>
 
@@ -522,6 +607,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'19%' 
             }}
+            alt="victoria jane, wedding dresses, chichester"
             >
          </img>
 
@@ -533,6 +619,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'19%' 
             }}
+            alt="victoria jane, wedding dresses, chichester"
             >
          </img>
 
@@ -544,7 +631,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'19%' 
             }}
-            
+            alt="victoria jane, wedding dresses, chichester"
             >
          </img>
 
@@ -557,6 +644,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'19%' 
             }}
+            alt="victoria jane, wedding dresses, chichester"
             >
          </img>
              
@@ -613,7 +701,6 @@ textAlign:'center'
                 <br/>
                 <br/>
                 <br/>
-                <br/>
 
 <div
 style={{
@@ -623,7 +710,7 @@ style={{
     padding: '1%',
 }}
 >
-
+<br/>
 <h4
 style={{
 fontFamily: '"FuturaStd",sans-serif',
@@ -638,6 +725,28 @@ textAlign:'center'
 </h4>
 
 <br/>
+
+{
+            isPhone ? 
+            <div
+            style={{
+              'width':'100%',
+              'display':'flex',
+              'justifyContent':'center'
+            }}
+            >
+
+              <img src='https://res.cloudinary.com/truly-gorgeous/image/upload/v1647264527/designers/alanHannah/eliza/Eliza_qx6ewj.jpg' width='90%' 
+              style={{'borderRadius': '10px'}}
+              alt="alan hannah, wedding dresses, chichester"
+              />
+              
+
+            </div> :
+            ''
+          }
+
+          <br/>
     
 <div>
       <div palomaBlancaResize="true"
@@ -667,6 +776,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
+            alt="alan hannah, wedding dresses, chichester"
             >
          </img>
 
@@ -678,6 +788,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
+            alt="alan hannah, wedding dresses, chichester"
             >
          </img>
 
@@ -689,6 +800,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
+            alt="alan hannah, wedding dresses, chichester"
             >
          </img>
 
@@ -719,6 +831,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
+            alt="alan hannah, wedding dresses, chichester"
             >
          </img>
 
@@ -730,7 +843,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
-            
+            alt="alan hannah, wedding dresses, chichester"
             >
          </img>
 
@@ -743,6 +856,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
+            alt="alan hannah, wedding dresses, chichester"
             >
          </img>
              
@@ -795,8 +909,6 @@ textAlign:'center'
                 <br/>
                 
 
-<br/>
-
 <div
 style={{
     border: 'double 5px #ede6e6',
@@ -805,7 +917,7 @@ style={{
     padding: '1%',
 }}
 >
-
+<br/>
 <h4
 style={{
 fontFamily: '"FuturaStd",sans-serif',
@@ -820,6 +932,28 @@ textAlign:'center'
 </h4>
 
 <br/>
+
+{
+            isPhone ? 
+            <div
+            style={{
+              'width':'100%',
+              'display':'flex',
+              'justifyContent':'center'
+            }}
+            >
+
+              <img src='https://res.cloudinary.com/truly-gorgeous/image/upload/v1647264523/designers/sofiaBianca/ellaria/ellaria5_ccb7fl.png' width='90%' 
+              style={{'borderRadius': '10px'}}
+              alt="sofia bianca, wedding dresses, chichester"
+              />
+              
+
+            </div> :
+            ''
+          }
+
+          <br/>
     
 <div>
       <div palomaBlancaResize="true"
@@ -852,6 +986,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'24%' 
             }}
+            alt="sofia bianca, wedding dresses, chichester"
             >
          </img>
 
@@ -863,6 +998,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'24%' 
             }}
+            alt="sofia bianca, wedding dresses, chichester"
             >
          </img>
 
@@ -874,19 +1010,19 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'24%' 
             }}
-            
+            alt="sofia bianca, wedding dresses, chichester"
             >
          </img>
 
          <img
             src='https://res.cloudinary.com/truly-gorgeous/image/upload/v1647264524/designers/sofiaBianca/emmanuela/emmanuela1_ahibdb.png' 
             palomaBlancaResize="true"
-            
             style={{
                
                 borderRadius: '5px',
                 width:'24%' 
             }}
+            alt="sofia bianca, wedding dresses, chichester"
             >
          </img>
              
@@ -938,7 +1074,6 @@ textAlign:'center'
                 <br/>
                 <br/>
                 <br/>
-                <br/>
 
 <div
 style={{
@@ -948,7 +1083,7 @@ style={{
     padding: '1%',
 }}
 >
-
+<br/>
 <h4
 style={{
 fontFamily: '"FuturaStd",sans-serif',
@@ -961,6 +1096,28 @@ textAlign:'center'
 >
     Lusan Mandongus
 </h4>
+<br/>
+
+{
+            isPhone ? 
+            <div
+            style={{
+              'width':'100%',
+              'display':'flex',
+              'justifyContent':'center'
+            }}
+            >
+
+              <img src='https://res.cloudinary.com/truly-gorgeous/image/upload/v1647264517/designers/lusanMandongus/CARRIE-A_srmcp4.jpg' width='90%' 
+              style={{'borderRadius': '10px'}}
+              alt="lusan mandongus, wedding dresses, chichester"
+              />
+              
+
+            </div> :
+            ''
+          }
+
 
 <br/>
     
@@ -992,6 +1149,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
+            alt="lusan mandongus, wedding dresses, chichester"
             >
          </img>
 
@@ -1003,6 +1161,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
+            alt="lusan mandongus, wedding dresses, chichester"
             >
          </img>
 
@@ -1014,6 +1173,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
+            alt="lusan mandongus, wedding dresses, chichester"
             >
          </img>
 
@@ -1044,6 +1204,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
+            alt="lusan mandongus, wedding dresses, chichester"
             >
          </img>
 
@@ -1055,7 +1216,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
-            
+            alt="lusan mandongus, wedding dresses, chichester"
             >
          </img>
 
@@ -1068,6 +1229,7 @@ textAlign:'center'
                 borderRadius: '5px',
                 width:'32%' 
             }}
+            alt="lusan mandongus, wedding dresses, chichester"
             >
          </img>
              

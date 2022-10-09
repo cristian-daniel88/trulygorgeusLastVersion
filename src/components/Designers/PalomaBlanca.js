@@ -143,7 +143,10 @@ function PalomaBlanca() {
                     onClick={() => click(ronaldModelsObject[0].video[0], true)}
                     palomaBlancaResize="true"
 
-                    style={{filter:'contrast(30%)'}}
+                    style={{
+                      filter:'contrast(30%)'
+                      
+                    }}
                     
                     >
                     {console.log(ronaldModelsObject[0].video[0])}
