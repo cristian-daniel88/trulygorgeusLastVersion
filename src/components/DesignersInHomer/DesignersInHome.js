@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FaYoutube } from 'react-icons/fa'
 import { CartGridOurCreations, img, DescriptionOurCreations, OurCreationsBox3, OurCreationsBox4 } from '../Alterations/OurCreationsStyles'
 import { useMediaQuery } from 'react-responsive'
+import { Link } from 'react-router-dom';
 
 
 
@@ -241,6 +242,8 @@ const change6 = (v) => {
             textAlign: 'center',
           }}
           >
+          
+          <Link to='/paloma-blanca'>
 
           <button
           style={{
@@ -251,11 +254,14 @@ const change6 = (v) => {
             borderRadius: '10px',
             fontSize: '2vw',
             color: 'white',
-            width: '60%'
+            width: '60%',
+            cursor:'pointer' 
           }}
           >
+          
                 View All
           </button>
+          </Link>
           </div>
         </div>
         {/*  */}
@@ -472,7 +478,8 @@ const change6 = (v) => {
             textAlign: 'center',
           }}
           >
-
+            <Link to={'/ronald-joyce'}>
+              
           <button
           style={{
             background:'transparent',
@@ -482,11 +489,13 @@ const change6 = (v) => {
             borderRadius: '10px',
             fontSize: '2vw',
             color: 'white',
-            width: '60%'
+            width: '60%',
+            cursor: 'pointer',
           }}
           >
                 View All
           </button>
+            </Link>
           </div>
         </div>
         {/*  */}
@@ -722,6 +731,7 @@ textAlign:'center'
     textAlign: 'center',
   }}
   >
+  <Link to={'/victoria-jane'}>
 
   <button
   style={{
@@ -732,11 +742,13 @@ textAlign:'center'
     borderRadius: '10px',
     fontSize: '2vw',
     color: 'white',
-    width: '60%'
+    width: '60%',
+    cursor: 'pointer',
   }}
   >
         View All
   </button>
+  </Link>
   </div>
 </div>
 {/*  */}
@@ -934,6 +946,7 @@ textAlign:'center'
     textAlign: 'center',
   }}
   >
+  <Link to={'/alan-hannah'}>
 
   <button
   style={{
@@ -944,11 +957,13 @@ textAlign:'center'
     borderRadius: '10px',
     fontSize: '2vw',
     color: 'white',
-    width: '60%'
+    width: '60%',
+    cursor: 'pointer'
   }}
   >
         View All
   </button>
+  </Link>
   </div>
 </div>
 {/*  */}
@@ -1100,6 +1115,7 @@ textAlign:'center'
     textAlign: 'center',
   }}
   >
+  <Link to={'/sofia-bianca'}>
 
   <button
   style={{
@@ -1110,11 +1126,13 @@ textAlign:'center'
     borderRadius: '10px',
     fontSize: '2vw',
     color: 'white',
-    width: '60%'
+    width: '60%',
+    cursor:'pointer',
   }}
   >
         View All
   </button>
+  </Link>
   </div>
 </div>
 {/*  */}
@@ -1308,6 +1326,7 @@ textAlign:'center'
     textAlign: 'center',
   }}
   >
+  <Link to={'/lusan-mandongus'}>
 
   <button
   style={{
@@ -1318,11 +1337,13 @@ textAlign:'center'
     borderRadius: '10px',
     fontSize: '2vw',
     color: 'white',
-    width: '60%'
+    width: '60%',
+    cursor:'pointer',
   }}
   >
         View All
   </button>
+  </Link>
   </div>
 </div>
 {/*  */}
