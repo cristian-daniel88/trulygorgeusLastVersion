@@ -159,19 +159,38 @@ const change6 = (v) => {
                   justifyContent:'space-around'
 
                   }}>
-
+                <div
+                style={{
+                  'width':'19%',
+                  'position':'relative'
+                }}
+                >
                  <img
                     src='https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894C.jpg' 
                     onClick={() => change1('https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4894/4894C.jpg')}
                     style={{ 
-                        borderRadius: '5px',
-                        width:'19%',
-                        
+                      borderRadius: '5px',
+                      width:'100%',
+                      
                     }}
                     alt='paloma blanca, wedding dresses, chichester'
                     >
                  </img>
+                 <div style=
+                 {{
+                  'position':'absolute', 
+                  'bottom':'10px', 
+                  'right':'5px', 
+                  'color':'white', 
+                  'background':'#776161',
+                  'padding':'5px',
+                  'borderRadius':'5px',
+                  'fontSize':'1.5vw'
+                  }}>
+                    <p>£ 2000</p>
+                    </div>
 
+                </div>
                  <img
                     src='https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4977/4977C.jpg' 
                     onClick={() => change1('https://trulygorgeous.co.uk/imgs/designers/palomaBlancaLow/4977/4977C.jpg' )}
